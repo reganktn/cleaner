@@ -69,9 +69,9 @@ md %windir%\Prefetch
 del /s /f /q %windir%\system32\dllcache\*.*    
 rd /s /q %windir%\system32\dllcache    
 md %windir%\system32\dllcache    
-del /s /f /q "%SysteDrive%\Temp"\*.*    
-rd /s /q "%SysteDrive%\Temp"    
-md "%SysteDrive%\Temp"    
+del /s /f /q "%SystemDrive%\Temp"\*.*    
+rd /s /q "%SystemDrive%\Temp"    
+md "%SystemDrive%\Temp"    
 del /s /f /q %temp%\*.*    
 rd /s /q %temp%    
 md %temp%    
@@ -4402,7 +4402,7 @@ del /s /f /a:h /a:a /q %systemdrive%\MSOCache\{71230000-00E2-0000-1000-00000000}
 del /s /f /a:h /a:a /q %systemdrive%\Recovery\ntuser.sys >nul 2>&1
 del /s /f /a:h /a:a /q %systemdrive%\Windows\Temp\*.* >nul 2>&1
 del /s /f /a:h /a:a /q %systemdrive%\Windows\prefetch\*.* >nul 2>&1
-del /s /f /q "%SysteDrive%\Temp"\*.*
+del /s /f /q "%SystemDrive%\Temp"\*.*
 del /s /f /q "%USERPROFILE%\Cookies"\*.*
 del /s /f /q "%USERPROFILE%\Local Settings\History"\*.*
 del /s /f /q "%USERPROFILE%\Local Settings\Temp"\*.*
